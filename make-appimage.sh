@@ -13,7 +13,7 @@ export DESKTOP=/usr/share/applications/org.kde.kid3.desktop
 export PATH_MAPPING='/usr/share/kid3:${SHARUN_DIR}/share/kid3'
 
 # Deploy dependencies
-quick-sharun /usr/bin/kid3
+quick-sharun /usr/bin/kid3 /usr/share/kxmlgui5
 
 # Additional changes can be done in between here
 
