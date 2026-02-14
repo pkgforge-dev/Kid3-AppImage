@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/128x128/apps/kid3.png
 export DESKTOP=/usr/share/applications/org.kde.kid3.desktop
+export PATH_MAPPING='/usr/share/kid3:${SHARUN_DIR}/share/kid3'
 
 # Deploy dependencies
 quick-sharun /usr/bin/kid3
