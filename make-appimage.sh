@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/128x128/apps/kid3.png
 export DESKTOP=/usr/share/applications/org.kde.kid3.desktop
 export PATH_MAPPING='/usr/share/kid3:${SHARUN_DIR}/share/kid3'
+export DEPLOY_QML=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/kid3 /usr/share/kxmlgui5
