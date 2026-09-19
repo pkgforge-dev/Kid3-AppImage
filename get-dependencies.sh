@@ -9,8 +9,6 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	kid3           \
 	kvantum        \
-	pipewire-audio \
-	pipewire-jack  \
 	lxqt-qtplugin  \
 	qt6ct
 
